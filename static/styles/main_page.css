@@ -1,0 +1,79 @@
+body{
+    background-image: url("back3.png");
+}
+.logo{
+    height: 120px;
+    width: 550px;
+    padding-left: 20px;
+}
+p{
+    padding-left:350px;
+    margin-top:-30px;
+    left: 330px;
+    font-size: 12;
+}
+.header{
+    /*height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+h1{
+    color: black;
+    margin-bottom: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.search{
+    height: 50px;
+    padding: 10px;
+    border:none;
+    border-radius: 25px;
+    outline: none;
+    width: 400px;
+}
+.search-btn{
+    height: 50px;
+    width: 150px;
+    background:yellowgreen;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    
+}
+.search-btn:hover{
+    opacity: 0.8;
+}
+.social-media{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.social-media a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.social-media a:hover{
+    background: rgba(3, 128, 201, 0.993);
+}
+
+.social-media a i{
+    transition: 0.5s all;
+}
+.social-media a:hover > i{
+    transform: scale(1.2) rotate(25deg);
+}

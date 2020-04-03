@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>hollywood movie recommender</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/main_page.css') }}">
+        <script src="https://kit.fontawesome.com/8cab6fe611.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <img src="static/logo_transparent.png" class="logo">
+        <p><b>search your movie taste here</b></p>
+        <div class="header">
+            <form action="{{url_for('search_movies')}}">
+                <h1>Search Movie Here</h1>
+                <div class="form-box">
+                    <input type="text" class="search" name="movie" placeholder="Search..">
+                    <button class="search-btn" target="_blank" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+{{movie}}
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/niksaurabh/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/NIKsaurabh" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://medium.com/@NIKsaurabh" target="_blank"><i class="fab fa-medium-m"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100009044108433&ref=bookmarks" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/NIK_Saurabh_" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+    </body>
+</html>
