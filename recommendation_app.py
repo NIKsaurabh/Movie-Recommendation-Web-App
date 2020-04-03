@@ -106,6 +106,6 @@ def search_movies():
         return render_template('movie_list.html',movie=movies)
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=False)
     
     
