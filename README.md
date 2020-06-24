@@ -6,8 +6,25 @@ This is a content based movie recommendation web application hosted on Heroku. J
 
 # Demo
 Link: https://nikmoviemaniac.herokuapp.com/
-![](Images/demo.jpeg)
 
+![](Images/demo.png)
 
-tmdb_5000.csv dataset is used in this movie recommendation system, which is
-prepreocessed by me. tmdb.ipynb file contains all the preprocessing steps.
+# Dataset used
+I have used TMDB 5000 movie dataset.              
+This dataset containd two csv files:
+  1. tmdb_5000_credits.csv
+  2. tmdb_5000_movies.csv
+
+Link to dataset: https://www.kaggle.com/tmdb/tmdb-movie-metadata
+
+# Directory tree
+![](Images/directory.png)
+
+# Tool used
+![](Images/jupyter.png)
+
+# Language used
+![](Images/python.jpeg)
+
+# Technologies used
+![](Images/flask.png) ![](Images/gunicorn.png) ![](Images/heroku.png)
