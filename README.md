@@ -1,4 +1,4 @@
-# Movie-Recommendation-Web-App
+# Movie Recommendation Web App
 ![](Images/movie.jpeg)
 # Overview
 
