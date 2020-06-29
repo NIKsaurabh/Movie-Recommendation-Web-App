@@ -53,10 +53,13 @@ Link to dataset: https://www.kaggle.com/tmdb/tmdb-movie-metadata
 ![](Images/directory.png)
 
 # Tool used
-![](Images/jupyter.png)  ![](Images/spyder.png)
+![](Images/jupyter.png)  ![](Images/spyder.jpg)
 
 # Language used
 ![](Images/python.jpeg)
 
 # Technologies used
 ![](Images/flask.png) ![](Images/gunicorn.png) ![](Images/heroku.png)
+
+# Visit blog
+[Click Here](https://medium.com/@NIKsaurabh/movie-recommender-web-app-e6c5ea5c4659)
