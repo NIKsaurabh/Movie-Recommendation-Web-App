@@ -45,9 +45,7 @@ Link to dataset: https://www.kaggle.com/tmdb/tmdb-movie-metadata
 * Nearest Neighbours:
   
   I have used nearest neighbours algorithm to find the most related list of movies to a movie name. This algorithm takes argument named **'metric'**.I have assigned this argument to **'cosine'**. If two movies are highly related then the cos value will be equal to 1 as angle between them will be 0 degree. If movies are not related then angle between them will be 90 degree and value will equal to 0 (cos90=0).
-  
-  
-  
+   
   
 ![](Images/cosine.png)
 
